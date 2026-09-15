@@ -1,0 +1,140 @@
+{
+  "records_loaded": 60,
+  "descriptive_statistics": {
+    "passenger_count": {
+      "min": 1.0,
+      "max": 4.0,
+      "average": 2.5
+    },
+    "fare_amount_usd": {
+      "min": 9.24,
+      "max": 46.0,
+      "average": 25.196
+    },
+    "tip_amount_usd": {
+      "min": 0.0,
+      "max": 6.44,
+      "average": 2.33
+    },
+    "total_amount_usd": {
+      "min": 11.28,
+      "max": 60.29,
+      "average": 31.446
+    },
+    "speed_kmh": {
+      "min": 8.170515692307694,
+      "max": 36.37865972093023,
+      "average": 23.020745992617186
+    }
+  },
+  "selected_pickup_zone_counts": {
+    "Newark Airport": 4,
+    "JFK Airport": 12,
+    "East Harlem North": 8,
+    "Central Park": 12
+  },
+  "sorting_benchmarks": {
+    "passenger_count": {
+      "bubble": {
+        "seconds": 8.337500003108289e-05,
+        "correct": true
+      },
+      "merge": {
+        "seconds": 5.4271000010430726e-05,
+        "correct": true
+      },
+      "quick": {
+        "seconds": 1.1547999974936829e-05,
+        "correct": true
+      }
+    },
+    "fare_amount": {
+      "bubble": {
+        "seconds": 9.409099999402315e-05,
+        "correct": true
+      },
+      "merge": {
+        "seconds": 5.0716000032480224e-05,
+        "correct": true
+      },
+      "quick": {
+        "seconds": 2.2414000000026135e-05,
+        "correct": true
+      }
+    },
+    "tip_amount": {
+      "bubble": {
+        "seconds": 9.040499998036466e-05,
+        "correct": true
+      },
+      "merge": {
+        "seconds": 4.645000001346489e-05,
+        "correct": true
+      },
+      "quick": {
+        "seconds": 7.381099999292928e-05,
+        "correct": true
+      }
+    },
+    "total_amount": {
+      "bubble": {
+        "seconds": 9.646400002338851e-05,
+        "correct": true
+      },
+      "merge": {
+        "seconds": 5.200800001148309e-05,
+        "correct": true
+      },
+      "quick": {
+        "seconds": 4.075099997180587e-05,
+        "correct": true
+      }
+    },
+    "speed_kmh": {
+      "bubble": {
+        "seconds": 9.334000003491383e-05,
+        "correct": true
+      },
+      "merge": {
+        "seconds": 4.668999997647916e-05,
+        "correct": true
+      },
+      "quick": {
+        "seconds": 2.6530000013735844e-05,
+        "correct": true
+      }
+    }
+  },
+  "graph": {
+    "nodes": 8,
+    "edges": 11,
+    "total_trips_represented": 60,
+    "top_connections": [
+      {
+        "from": 132,
+        "to": 161,
+        "trips": 8
+      },
+      {
+        "from": 132,
+        "to": 186,
+        "trips": 8
+      },
+      {
+        "from": 230,
+        "to": 43,
+        "trips": 8
+      },
+      {
+        "from": 43,
+        "to": 74,
+        "trips": 8
+      },
+      {
+        "from": 132,
+        "to": 230,
+        "trips": 4
+      }
+    ]
+  }
+}
